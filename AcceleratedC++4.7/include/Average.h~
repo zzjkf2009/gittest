@@ -1,0 +1,19 @@
+#include <iostream>
+#include <vector>
+
+#ifndef AVERAGE_H
+#define AVERAGE_H
+
+class Average {
+
+       public:
+               Average();
+               double get_average(const std::vector<double>& vec);
+
+       private:
+
+
+};
+
+
+#endif 

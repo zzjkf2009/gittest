@@ -1,0 +1,24 @@
+#include "Average.hpp"
+#include <iostream>
+#include <vector>
+
+double get_average(const std::vector<double>& vec){
+
+ typedef std::vector<double>::size_type sz;             // define a type that contain the size of the vector
+
+   sz size=vec.size();
+  
+  if (size==0) {
+   cout<< "There is no number at all"<<endl;       // if size is zero war the user
+   }
+  double sum=0;
+
+
+   for(double i: vec){
+         sum+=i;
+}
+
+ return sum/size;          // return the calculated average
+}
+
+
